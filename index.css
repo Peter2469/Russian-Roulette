@@ -1,0 +1,31 @@
+.background{
+    background-color: #121212;
+}
+
+.title{
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.description{
+    font-size: 24px;
+    color: white;
+}
+
+.button{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 10px 24px;
+}
