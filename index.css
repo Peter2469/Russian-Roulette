@@ -29,3 +29,16 @@
     border-radius: 4px;
     padding: 10px 24px;
 }
+
+.bottom{
+    position: absolute;
+    bottom: 5px;
+    cursor: pointer;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.bottom .description{
+    color: grey;
+}
