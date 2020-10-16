@@ -1,4 +1,4 @@
-const links = ["https://www.pornhub.com", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://www.hentaihaven.org"]
+const links = ["https://smashthewalls.com/", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://www.github.com/sponsors/Peter2469"]
 
 function RussianRoulette() {
     var bullet = Math.floor((Math.random() * 6) + 1);
