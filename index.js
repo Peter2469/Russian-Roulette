@@ -1,4 +1,4 @@
-const links = ["https://smashthewalls.com/", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://www.github.com/sponsors/Peter2469"]
+const links = ["https://www.youtube.com/watch?v=fC7oUOUEEi4/", "https://www.youtube.com/watch?v=dQw4w9WgXcQ"]
 
 function RussianRoulette() {
     var bullet = Math.floor((Math.random() * 6) + 1);
@@ -8,7 +8,7 @@ function RussianRoulette() {
         window.location = links[Math.floor(Math.random() * links.length)];
     }else{
         var button = document.getElementById("button");
-        button.innerHTML = "You Win... for now";
+        button.innerHTML = "Blank Shot";
         setTimeout ("start()", 5000);
     }
 }
