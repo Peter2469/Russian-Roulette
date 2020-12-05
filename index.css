@@ -31,12 +31,9 @@
 }
 
 .bottom{
-    position: absolute;
-    bottom: 5px;
-    cursor: pointer;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
 }
 
 .bottom .description{
