@@ -8,5 +8,6 @@ function RussianRoulette() {
     }else{
         var button = document.getElementById("button");
         button.innerHTML = "Blank Shot";
+        location.reload();
     }
 }
